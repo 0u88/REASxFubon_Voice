@@ -126,8 +126,8 @@ def process_audio_async(internal_filename, original_filename):
 
     try:
         # 匯入處理函數
-        print("[背景線程] 正在匯入 main.py...")
-        from main import process_audio_file
+        print("[背景線程] 正在匯入 pipeline.py...")
+        from pipeline import process_audio_file
         print("[背景線程] ✓ 匯入成功")
 
         # 執行處理（修復：移除 denoise_level 參數，只傳 audio_path 和 original_name）

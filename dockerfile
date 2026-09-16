@@ -28,4 +28,4 @@ RUN pip install --upgrade pip setuptools wheel && \
 # ===== Entrypoint =====
 EXPOSE 5003
 
-CMD ["python", "app.py"]
+CMD ["python", "src/app.py"]
